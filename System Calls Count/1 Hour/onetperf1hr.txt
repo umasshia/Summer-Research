@@ -1,0 +1,33 @@
+      1 clone(child_stack=0x7fe26b7ee870, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[548667], tls=0x7fe26b7ef700, child_tidptr=0x7fe26b7ef9d0) = 548667
+      1 clone(child_stack=0x7fe26b7ee870, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[548668], tls=0x7fe26b7ef700, child_tidptr=0x7fe26b7ef9d0) = 548668
+      1 clone(child_stack=0x7fe26b7ee870, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tid=[548782], tls=0x7fe26b7ef700, child_tidptr=0x7fe26b7ef9d0) = 548782
+      3 futex(0x559546a4a5c0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+      6 futex(0x559546a4a5c0, FUTEX_WAKE_PRIVATE, 1) = 0
+    179 futex(0x559546a4a5c0, FUTEX_WAKE_PRIVATE, 1) = 1
+      3 futex(0x5595487cbf20, FUTEX_WAKE_PRIVATE, 1) = 1
+      3 ioctl(15, KVM_IRQ_LINE_STATUS, 0x7fff6a1eb3b0) = 0
+      6 ioctl(15, KVM_IRQ_LINE_STATUS, 0x7fff6a1ec1d0) = 0
+      6 ioctl(15, KVM_IRQ_LINE_STATUS, 0x7fff6a1ec230) = 0
+      3 ioctl(15, KVM_IRQ_LINE_STATUS, 0x7fff6a1ec3f0) = 0
+      1 ioctl(15, KVM_SIGNAL_MSI, 0x7fe260ddbb50) = 1
+      1 ioctl(15, KVM_SIGNAL_MSI, 0x7fe2686c5b50) = 1
+      1 ioctl(15, KVM_SIGNAL_MSI, 0x7fe2687c6b50) = 1
+      1 ioctl(15, KVM_SIGNAL_MSI, 0x7fe3886feb50) = 1
+      1 ioctl(15, KVM_SIGNAL_MSI, 0x7fe3887ffb50) = 1
+      1 ioctl(15, KVM_SIGNAL_MSI, 0x7fe38a620b50) = 1
+      2 ioctl(15, KVM_SIGNAL_MSI, 0x7fe38b5a6b50) = 1
+      6 read(4, "\1\0\0\0\0\0\0\0", 512)        = 8
+   1828 read(7, "\1\0\0\0\0\0\0\0", 512)        = 8
+     14 read(8, "\1\0\0\0\0\0\0\0", 16)         = 8
+      3 read(8, "\4\0\0\0\0\0\0\0", 16)         = 8
+      1 read(9, "\232\301Z=J\256\247\334\4t\212?\1\366\220~y\307\227f\v\1\311\310jo\326\216\0104\350\222"..., 64) = 64
+      1 read(9, "\233mZ\21 \304q\300\333\226\227\327\2455\367\312\363\360\254[*-\332R\240\355\340c\17>\254\354"..., 64) = 64
+      1 read(9, "\251:7\3370\366I%\v\311B\301\214\17\332\326*\234(\222dFtnR\312\17\2\254\254\372\267"..., 64) = 64
+      1 read(9, " \273j\220r@\34\265\243ji\325\346\254\v\325\35\3262\334i\372$o\363\241\7+\212\315U\302"..., 64) = 64
+      1 read(9, "P\310A\0315e\0\271x\373~}*\354\373T\262\326\233\317\324\27z3\202\n\330e_ ^\1"..., 64) = 64
+      1 read(9, "Q:\236\31h<\250\321\366\316]Te\312_Y\372X\343\217\216s\24\276.\263\211 \316\34qL"..., 64) = 64
+      1 readv(10, [{iov_base=0x7fff6a1eb3f0, iov_len=8}], 1) = -1 EIO (Input/output error)
+      3 readv(10, [{iov_base="\r", iov_len=8}], 1) = 1
+      3 rt_sigprocmask(SIG_SETMASK, [BUS USR1 ALRM IO], NULL, 8) = 0
+      3 rt_sigprocmask(SIG_SETMASK, ~[ILL FPE SEGV RTMIN RT_1], [BUS USR1 ALRM IO], 8) = 0
+     20 write(8, "\1\0\0\0\0\0\0\0", 8)         = 8
