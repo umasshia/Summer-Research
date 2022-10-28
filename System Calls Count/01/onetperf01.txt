@@ -1,0 +1,10 @@
+      3 futex(0x55f1064675c0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+      3 futex(0x55f1064675c0, FUTEX_WAKE_PRIVATE, 1) = 0
+    166 futex(0x55f1064675c0, FUTEX_WAKE_PRIVATE, 1) = 1
+      1 ioctl(15, KVM_IRQ_LINE_STATUS, 0x7ffe5a53d780) = 0
+      1 ioctl(15, KVM_IRQ_LINE_STATUS, 0x7ffe5a53d7e0) = 0
+      1 read(4, "\1\0\0\0\0\0\0\0", 512)        = 8
+    310 read(7, "\1\0\0\0\0\0\0\0", 512)        = 8
+      2 read(8, "\1\0\0\0\0\0\0\0", 16)         = 8
+      1 read(9, "\320$g9\242\25\275\30\3346\372\2632T\200\240[#>\217\225\rv\10\351\3\32oOh\247\241"..., 64) = 64
+      1 write(8, "\1\0\0\0\0\0\0\0", 8)         = 8

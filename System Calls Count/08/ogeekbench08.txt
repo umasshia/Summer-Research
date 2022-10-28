@@ -1,0 +1,4 @@
+      1 futex(0x559546a4a5c0, FUTEX_WAIT_PRIVATE, 2, NULL) = -1 EAGAIN (Resource temporarily unavailable)
+      1 futex(0x559546a4a5c0, FUTEX_WAKE_PRIVATE, 1) = 0
+     85 futex(0x559546a4a5c0, FUTEX_WAKE_PRIVATE, 1) = 1
+    328 read(7, "\1\0\0\0\0\0\0\0", 512)        = 8

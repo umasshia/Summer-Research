@@ -1,0 +1,5 @@
+      5 futex(0x55f1064675c0, FUTEX_WAKE_PRIVATE, 1) = 1
+    320 read(7, "\1\0\0\0\0\0\0\0", 512)        = 8
+      2 read(8, "\1\0\0\0\0\0\0\0", 16)         = 8
+      1 readv(10, [{iov_base=0x7ffe5a53c9a0, iov_len=8}], 1) = -1 EIO (Input/output error)
+      2 write(8, "\1\0\0\0\0\0\0\0", 8)         = 8
